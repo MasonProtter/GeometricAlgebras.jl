@@ -110,8 +110,6 @@ end
     end
     dgen = (d[i] for i in 1:N)
     ex   = :(MultiVector{T, D, sym, N}(($(dgen...),)))
-    @show ex
-    ex
 end
 
 Base.:(*)(x::Real, y::T) where {T<:MultiVector} = T(x .* y.vals)
