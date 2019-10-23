@@ -1,0 +1,10 @@
+name = "GeometricAlgebras"
+uuid = "71360878-abdd-4a84-a082-5c12f60e3388"
+authors = ["MasonProtter <mason.protter@gmail.com>"]
+version = "0.1.0"
+
+[deps]
+Combinatorics = "861a8166-3701-5b0c-9a16-15d98fcdc6aa"
+IterTools = "c8e1da08-722c-5040-9ed9-7db0dc04731e"
+Permutations = "2ae35dd2-176d-5d53-8349-f30d82d94d4f"
+StaticArrays = "90137ffa-7385-5640-81b9-e52037218182"
